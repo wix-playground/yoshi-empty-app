@@ -1,0 +1,14 @@
+[
+  {
+    "appName": "test.pages.index",
+    "notifications": {
+      "slack_channels": [
+        "test-urgent"
+      ]
+    },
+    "deploy_annotations": [
+      "test"
+    ],
+    "ignore_first_request_roundtrip": true
+  }
+]

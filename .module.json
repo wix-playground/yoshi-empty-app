@@ -1,0 +1,19 @@
+{
+  "moduleId": "TEST",
+  "moduleConfigurationId": "MEMBERSHIP",
+  "appDefId": "1522827f-c56c-a5c9-2ac9-00f9e6ae12d3",
+  "isCoreService": true,
+  "routeNamespace": "test",
+  "translations": {
+    "enabled": true
+  },
+  "sentry": {
+    "DSN": "https://650be945013a49c0bc39a6545528be68@sentry.wixpress.com/1069",
+    "id": "650be945013a49c0bc39a6545528be68",
+    "projectName": "test-21",
+    "teamName": "test"
+  },
+  "experiments": {
+    "scopes": ["test"]
+  }
+}
