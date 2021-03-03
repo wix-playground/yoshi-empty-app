@@ -1,4 +1,4 @@
-/// <reference types="sled-test-runner" />
+/// <reference types="@wix/sled-test-runner" />
 import { Page } from 'puppeteer';
 import { injectBMOverrides } from 'yoshi-flow-bm';
 import { TextTestkit } from 'wix-style-react/dist/testkit/puppeteer';

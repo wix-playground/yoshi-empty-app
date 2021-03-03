@@ -14,6 +14,8 @@
     "teamName": "test"
   },
   "experiments": {
-    "scopes": ["test"]
+    "scopes": [
+      "test"
+    ]
   }
 }
