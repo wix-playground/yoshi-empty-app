@@ -38,7 +38,7 @@
     "lint-staged": "^10.0.7",
     "puppeteer": "^1.10.0",
     "react": "16.13.1",
-    "sled-test-runner": "^1.0.0",
+    "@wix/sled-test-runner": "^1.0.0",
     "typescript": "~3.9.0",
     "yoshi-flow-bm": "^4.1.0"
   },

@@ -1,4 +1,4 @@
-/// <reference types="sled-test-runner" />
+/// <reference types="@wix/sled-test-runner" />
 import { benchmark } from '@wix/perfer-sled';
 import { injectBMOverrides } from 'yoshi-flow-bm';
 
